@@ -37,7 +37,7 @@ public class Product {
     }
 
     public double getFinalPrice() {
-        finalPrice = price * (1 + tax);
+        finalPrice = price * tax;
         return finalPrice;
     }
 }
