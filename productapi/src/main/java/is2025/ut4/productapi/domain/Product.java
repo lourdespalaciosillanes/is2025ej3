@@ -40,7 +40,7 @@ public class Product {
     }
 
     public double getFinalPrice(){
-        finalPrice = prive *tax;
+        finalPrice = price * (1+tax);
         return finalPrice;
     }
 }
